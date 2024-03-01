@@ -1,6 +1,6 @@
 ### Мобильное приложение для каталога книг (CRUD).
 
-## Используемыый стек
+## Используемый стек
 React, React-Native, Rtk-query, Redux toolkit, Expo, Tailwind CSS
 
 ## Архитектура проекта
