@@ -8,7 +8,7 @@ import { Loading } from "shared/ui/loading";
 import { BooksListWidget, BooksFooterWidget } from "widgets/book";
 
 export const BooksScreen: FC<ScreenProps<"Books">> = () => {
-  const { isLoading, error, data, refetch } = bookApi.useFetchAllBooksQuery();
+  const { isLoading, error, data, refetch } = bookApi.useFetchAllBooksQuery(10);
 
   if (isLoading) return <Loading />;
 
